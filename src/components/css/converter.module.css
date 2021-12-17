@@ -1,0 +1,42 @@
+.box {
+    position: fixed;
+    z-index: 1;
+    top: 25vh;
+    background: #778899;
+    opacity: .9;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 30vw;
+    min-height: 30vh;
+}
+
+.output {
+    display: inline-block;
+    min-width: 80%;
+    margin-top: 7%;
+    border: 1px solid silver;
+    min-height: 2em;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 3% auto;
+    max-width: 80%;
+}
+
+.submitButton {
+    margin: auto;
+}
+
+.input {
+    min-width: 20px;
+    margin: auto 3%;
+}
+
+.background {
+    position: fixed;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}

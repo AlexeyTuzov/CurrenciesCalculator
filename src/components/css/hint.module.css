@@ -1,0 +1,29 @@
+.img {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: antiquewhite;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: help;
+}
+
+.div {
+    transform: scale(0);
+    position: absolute;
+}
+
+.divActive {
+    position: absolute;
+    overflow-y: auto;
+    background-color: thistle;
+    border-radius: 12px;
+    border: 1px solid black;
+    right: -20vw;
+    top: 0;
+    width: 20vw;
+    height: 30vh;
+    transform: scale(1);
+}

@@ -1,0 +1,68 @@
+.App {
+  width: 100vw;
+  text-align: center;
+}
+
+.App-header {
+  position: fixed;
+  padding: 20px;
+  z-index: 1;
+  width: inherit;
+  background: linear-gradient(0deg, transparent, #282c34);
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  position: fixed;
+  width: inherit;
+  background-color:azure;
+  display: flex;
+  min-height: 80vh;
+  justify-content: center;
+}
+
+.App-footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: inherit;
+  background: linear-gradient(0deg, #282c34, transparent);
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.homeButton {
+  position: absolute;
+  background-color: #CCCCCC;
+  right: 2%;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.home {
+  position: relative;
+  top: -4px;;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  animation: linear infinite 10s;
+  animation-name: Rotate;
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
